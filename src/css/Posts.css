@@ -1,0 +1,272 @@
+.box{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  line-height: 30px;
+  margin: 10px 0px;
+  width: 65%;
+}
+
+.last{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(78, 78, 78);
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.christmas{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: rgb(0, 108, 201);
+}
+
+.x{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: rgb(113, 113, 113); 
+  padding-right: 10px;
+}
+
+.x:hover, .topHeader:hover{
+  cursor: pointer;
+}
+
+.button{
+  background-color: rgb(0, 108, 201);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.box1{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 65%;
+}
+
+.posts{
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+.trending{
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+.trend{
+  display: flex;
+  flex-direction: row;
+}
+
+.t{
+  display: flex;
+  position: relative;
+  margin-right: 10px;
+  height: 20vh;
+  width: 80%;
+}
+
+.tpicture{
+  background: linear-gradient(rgba(0, 0, 0, 0), black);
+  border-radius: 10px;
+}
+
+.trendingPic{
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+
+.titleTrend{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  margin-left: 10px;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+.one{
+  font-size: 2vh;
+}
+
+.two{
+  font-size: 1.2vh;
+}
+
+.create{
+  background-color: rgb(245, 246, 247);
+  border: 1px solid rgb(233, 230, 230);
+  border-radius: 5px;
+  color: grey;
+  width: 80%;
+  padding: 0px 0px 0px 20px;
+}
+
+.create:hover, .searchBarInput:hover{
+  background-color: white;
+  border: 1px solid rgb(0, 108, 201);
+  box-shadow:none; 
+}
+
+.create:focus, .searchBarInput:focus, input:focus{
+  outline: none;
+}
+
+.image, .link{
+  width: 30px;
+  height: 30px;
+}
+
+.box2{
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.votes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 7%;
+  background-color: rgb(246, 248, 249);
+}
+
+.number{
+  font-size: 12px;
+}
+
+.arrowUp, .arrowDown{
+  font-size: 22px;
+  color: grey;
+}
+
+.arrowUp:hover, .arrowDown:hover{
+  background-color: rgb(218, 214, 214);
+  border-radius: 5px;
+  padding: 0px 3px;
+  cursor: pointer;
+}
+
+.arrowUp:hover{
+  color: red;
+}
+
+.arrowDown:hover{
+  color:blue
+}
+
+.content{
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4vh;
+  margin: 7px;
+}
+
+.avatar{
+  border-radius: 50px;
+}
+
+.community{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.person{
+  color: rgb(85, 83, 83);
+  font-size: 12px;
+}
+
+.join{
+  background-color: rgb(0, 108, 201);
+  padding: 0px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 20px;
+  padding: 0px 5px;
+}
+
+.join:hover, .button:hover, .signupButton:hover{
+  background-color: rgb(111, 179, 227);
+  cursor: pointer;
+}
+
+.loginButton:hover{
+  border: 1px solid rgb(111, 179, 227);
+  color:  rgb(111, 179, 227);
+  cursor: pointer;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 30px;
+}
+
+.hyperlink{
+  font-size: 13px;
+}
+
+.contentImg{
+  align-self: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(116, 114, 112);
+  font-weight: bold;
+  margin: 2px 0px;
+}
+
+.comment, .share, .save{
+  padding: 0px 3px;
+}
+
+.commentImg, .shareImg, .saveImg{
+  width: 15px;
+}
+
+.comment:hover, .save:hover, .share:hover, .image:hover, .link:hover, .navButton:hover{
+  background-color: rgb(218, 214, 214);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.postsDiv {
+    display: inline-block;
+    width: 65%;
+  }
+
+.m {
+  display: none;
+}

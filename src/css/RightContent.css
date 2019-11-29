@@ -1,0 +1,293 @@
+.RightContent{
+    width: 18%;
+    margin-top: 0.8%;
+    left: 61%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+  }
+  
+  .viewAllBtn {
+    background-color: rgb(0, 108, 201);
+    width: 90%;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin: 15px 0px 5px 0px;
+  }
+  
+  .viewAllBtn:hover {
+    background-color:rgb(111, 179, 227);
+    cursor: pointer;
+  }
+  
+  .ArrowImg{
+    height: 25px;
+    width: 10px;
+  }
+  
+  .more{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px 0px 15px 0px;
+  }
+
+  .b1{
+    background-color: rgb(245, 246, 247);
+    color:rgb(0, 108, 201);
+    font-size: 13px;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  .b1:hover{
+      background-color: rgb(234, 236,239);
+  }
+  
+  .headingImg{
+    width: 325px;
+    height:400px;
+  }
+  .profileImg{
+    height:40px;
+    border-radius: 50px;
+  }
+  .Accounts{
+    display:flex;
+  }
+  .Accounts p{
+    padding:10px;
+    margin-top:5px;
+  }
+  .Accounts img{
+    margin:7px;
+    margin-bottom: 5px;
+  }
+  .TopGrowingHeading {
+   background-image: url(../img/Screenshot3.png);
+   background-size: cover;
+   margin: 0;
+   padding: 25px;
+   height:25px;
+   color: white;
+   border-radius: 5px 5px 0px 0px;
+  }
+  
+  .title1{
+      font-size: 2vh, 2vw;
+  }
+  .adText{
+    font-size: 11px;
+    text-align: left;
+    padding-left:15px;
+  }
+
+  .adImg img:hover{
+    cursor: pointer;
+  }
+  .bar{
+    background-color: rgb(212, 219, 226);;
+    color:rgb(212, 219, 226);;
+  }
+  
+  .premium{
+    display:flex;
+    height:80px;
+  }
+  
+  .tryNowBtn{
+    background-color: rgb(255, 60, 30);
+    width:90px;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+    padding:7px;
+    margin: 20px 5px 5px 5px;
+    border-radius: 5px;
+  }
+  .tryNowBtn:hover{
+    background-color: rgb(255, 95, 55);
+    cursor: pointer;
+  }
+  .premiumText{
+    font-size:12px;
+    text-align: left;
+    padding-left:10px;
+    width: 70%;
+    margin-top:6px;
+  }
+
+  .premiumTextHeading{
+    font-size:13px;
+    font-weight:bold;
+    margin-top:6px;
+  }
+
+  .premiumImage img{
+    padding-top:5px;
+    height:30px;
+    padding-left:15px;
+    margin-top:15px;
+  }
+  .premiumButton{
+    padding-top: 1px;
+    padding-right: 5%;
+  }
+  .trendingComunitiesText{
+    font-size: 11px;
+    text-align: left;
+    padding-left:15px;
+    font-weight: bold;
+    padding-top:10px;
+  }
+  .pages{
+    display:flex;
+    padding:2px;
+  }
+  .joinBtn{
+    background-color: rgb(0, 108, 201);
+    width:100px;
+    height:35px;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    left: 65%;
+  }
+
+  .joinBtn:hover {
+    background-color:rgb(111, 179, 227);
+    cursor: pointer;
+  }
+  .pages img{
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:10px;
+  }
+  .communities{
+    display:flex;
+    justify-content:space-between
+  }
+  .communitiesName{
+    font-size:15px;
+    text-align: left;
+    padding:15px;
+    margin-left:-15px;
+  }
+  .communitiesMembers{
+    font-size:12px;
+    margin-top:-10px;
+    text-align: left;
+  }
+  .joinBtn{
+    position: absolute;
+    right: 70px;
+    margin-top:15px;
+  }
+  .greyArrow{
+    height:8px;
+    right: 8%;
+    position: absolute;
+    margin-top:20px;
+  }
+  .popular{
+    display:flex;
+    cursor: pointer;
+  }
+  .popularText{
+    font-size:10px;
+    font-weight:bold;
+    padding:15px;
+    padding-left:5px;
+    padding-bottom: 15px;
+  }
+  .usingRedditTerms{
+    width:260px;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left:-30px;
+    font-weight: lighter;
+  }
+  .usingRedditCopyright{
+    font-size: 13px;
+    text-align: left;
+    margin-left:-30px;
+    font-weight: lighter;
+  }
+  .usingReddit{
+    display: inline-block;
+  }
+  .headingRow1{
+    text-align: left;
+    margin:0px;
+    margin-left:-30px;
+  }
+  .headingRow2{
+    text-align:right;
+    margin-top:-18px;
+    padding-right: 25px;
+  }
+  .row1{
+    text-align: left;
+    margin-left:-30px;
+    cursor: pointer;
+    padding:5px;
+  }
+  .row2{
+    text-align: left;
+    padding-left:150px;
+    cursor: pointer;
+    padding:5px;
+  }
+  .usingRedditHeading{
+    font-size:12px;
+    padding:5px;
+  }
+  .usingRedditTextRow1{
+    font-size:11px;
+    margin-top:60px;
+    margin-top:-1px;
+    padding:5px;
+  }
+  .usingRedditTextRow2{
+    font-size:11px;
+    margin-top:-122px;
+    padding-bottom: 15px;
+    margin-left:110px;
+  }
+  .largeBar{
+    background-color:  rgb(212, 219, 226);
+    color: rgb(212, 219, 226);
+    height:250px;
+  }
+  .backToTopButton{
+    background-color:  rgb(212, 219, 226);
+  }
+  .backToTopBtn {
+  background-color: rgb(0, 108, 201);
+    width:155px;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    padding:7px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .backToTopBtn:hover {
+    background-color:rgb(111, 179, 227);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .backToTopButton button{
+    background-color:  rgb(212, 219, 226);
+    border:none;
+  }

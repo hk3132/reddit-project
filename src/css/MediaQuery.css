@@ -1,0 +1,122 @@
+@media all and (max-width: 414px) {  
+    .postsDiv{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin:10px 0px;
+      border-radius: 0px;
+    }
+  
+    .votes, .RightContent, .t, .headerContainer, .topHeader, #popularh3, .loginSignup, .navButtons{
+      display: none;
+    }
+
+    .topHeader1{
+      display: inline-block;
+      position: fixed;
+      top: 0;
+      background-color: white;
+      z-index: 2;
+      border-bottom: 1px solid rgb(209, 207, 207);
+    }
+
+    .header2{
+      width: 414px;
+      margin-top: 1%;
+      margin-left: 2%;
+    }
+
+    .popularButton, .popularContainer{
+      width: 60px;
+    }
+
+    .redditLogo1{
+      width: 40px;
+    }
+
+    .search{
+      margin: 0 8px 0px 10px;
+      height: 6vh; 
+    }
+
+    .optionsContainer{
+      margin:0;
+      height: 30px;
+      padding-right: 8px;
+    }
+
+    .bottomHeader1{
+      display: block;
+      padding-top: 60px;
+    }
+
+    .post, .box1, .box2, .box, .margin, .media{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .content{
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+    }
+  
+    .contentImg{
+      width: 100%;
+    }
+  
+    .trending{
+      margin-left: 15%;
+    }
+
+    .media{
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .m{
+      display: flex;
+      position: relative;
+      margin-right: 10px;
+      height: 25vh;
+      width: 75%;
+      margin: 0 auto;
+    }
+    
+    .mpicture{
+      background: linear-gradient(rgba(0, 0, 0, 0), black);
+      border-radius: 10px;
+    }
+    
+    .mediaPic{
+      height: 100%;
+      width: 100%;
+      opacity: 0.6;
+      border-radius: 10px;
+    }
+    
+    .titleMedia{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      color: white;
+      margin-left: 10px;
+      align-self: flex-end;
+      padding-bottom: 10px;
+    }
+    
+    .oneone{
+      font-size: 2vh;
+    }
+    
+    .twotwo, .threethree{
+      font-size: 1.2vh;
+    }
+
+    .menu.open, .optionsMenu{
+    width: 200px;
+    }
+  }
+
+  
